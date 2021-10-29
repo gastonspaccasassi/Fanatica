@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/Style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class = "nav">
+            <a href="#" class="logo nav-link">Fanatica</a>
+            <ul class="nav-menu">
+                <li class= nav-menu-item>
+                    <a href="../Index.html" class="nav-menu-link nav-link"> Inicio </a></li>
+                <li class= nav-menu-item>
+                    <a href="../Pages/Tienda.html" class="nav-menu-link nav-link" target="blank"> Tienda </a></li>
+                <li class= nav-menu-item>
+                    <a href="../Pages/Noticias.html" class="nav-menu-link nav-link"> Noticias</a></li>
+                <li class= nav-menu-item>
+                    <a class="nav-menu-link nav-link" > Contacto </a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contáctenos</h3>
+                <form action="" method="POST" id="form">
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id='apellido'>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="telefono">Número de teléfono</label>
+                        <input type="telefono" name="telefono" id="telefono">
+                    </p>
+                    
+                    <p class="block">
+                        <label for="mensaje">Mensaje</label> 
+                        <textarea name="mensaje" rows="3" id="mensaje" ></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">Enviar</button>
+                        <p class="error" id="error"></p>
+                    </p>
+                    </form>
+            </div>
+
+            <div class="contact-info">
+                <h4>Más Información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Laprida 1502, Capital federal</li>
+                    <li><i class="fas fa-phone"></i>+54 9 11-6584-9564</li>
+                    <li><i class="fas fa-envelope-open-text"></i> fanatica@gmail.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-footer-all">
+            <div class= "container-body">
+                 <div class="column1">
+                <h1>Mas informacion de la compañia</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi mollitia architecto sed delectus, omnis inventore recusandae, facilis id vero accusantium ea blanditiis numquam repellat fugit ullam labore ipsum odio reiciendis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, rem. Libero animi molestiae reprehenderit adipisci labore! Deserunt magni quis, expedita, error assumenda neque placeat.</p>
+                </div>
+    
+                <div class="column2">
+                <h1>Redes sociales</h1>
+                <div class="row">
+                   <img src="../Img/facebook.png">
+                   <label>Siguenos en facebook</label>
+                </div>
+                <div class="row">
+                    <img src="../Img/Instagram 2.png">
+                    <label>Siguenos en instagram</label>
+                 </div>
+                 <div class="row">
+                    <img src="../Img/Twitter.png">
+                    <label>Siguenos en twitter</label>
+                 </div>
+                 <div class="row">
+                    <img src="../Img/Pinterest.png">
+                    <label >Siguenos en pinterest</label>
+                 </div>
+                </div>
+    
+                <div class="column3">
+                    <h1>Información de contacto</h1>
+                <div class="row2">
+                    <img src="../Img/Casa.png">
+                    <label>Laprida 1502, Caba</label>
+                 </div>
+                 <div class="row2">
+                     <img src="../Img/telefono.png">
+                     <label >11-6584-9564</label>
+                  </div>
+                  <div class="row2">
+                     <img src="../Img/mail.png">
+                     <label>fanatica@gmail.com</label>
+                  </div>
+                </div>  
+            </div>
+    
+            <div class = "container-footer">
+                <div class="footer">
+                <div class="copyright"> 
+                <p>Todos los derechos reservados © 2021.</p>
+                </div>
+                <div class="information">
+                <p>Informacion de la compañía | Privacidad y política | Terminos y condiciones</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <script src ="../Js/app.js"></script>
+</body>
+</html>
